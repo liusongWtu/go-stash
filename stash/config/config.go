@@ -16,6 +16,8 @@ type (
 
 	ElasticSearchConf struct {
 		Hosts         []string
+		UserName      string
+		PassWord      string
 		Index         string
 		DocType       string `json:",default=doc"`
 		TimeZone      string `json:",optional"`
